@@ -1,5 +1,6 @@
 import cv2
 import mediapipe as mp
+import time
 
 video = cv2.VideoCapture(0)
 
@@ -12,11 +13,9 @@ while True:
     img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     results = hands.process(img_rgb)
 
-    print(results.multi_hand_landmarks)
-
     if results.multi_hand_landmarks:
         for hand_landmark in results.multi_hand_landmarks:
-            mp_draw.draw_landmarks(img, hand_landmark)
+            mp_draw.draw_landmarks(img, hand_landmark, mp_hands.HAND_CONNECTIONS)
 
 
     cv2.imshow("Hand Detector", img)
