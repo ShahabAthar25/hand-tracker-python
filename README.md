@@ -1,6 +1,6 @@
 # hand-tracker-python
 
-A real-time voice recognition program made with python with the help of google-text-to-speech api, pyaudio and speech_recognition
+A real-time hand tracker made in python
 
 ## How to Run
 
