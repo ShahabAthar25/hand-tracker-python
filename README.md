@@ -46,5 +46,4 @@ This is a hand track made in python with the help of midiapipe and opencv-python
 
 ## General Guidelines
 
-- Make sure the microphone is connected
 - Make sure requirment.txt is installed
