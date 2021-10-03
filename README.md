@@ -1,4 +1,4 @@
-# Voice-Recognition-Python
+# hand-tracker-python
 
 A real-time voice recognition program made with python with the help of google-text-to-speech api, pyaudio and speech_recognition
 
@@ -42,13 +42,9 @@ python3 speech_assistant.py
 
 ## Overview
 
-This Program captures voice and spells it for you. This can can be used to make chat bots or assistance like google assistance in phones
+This is a hand track made in python with the help of midiapipe and opencv-python. this program captures the hand and points of the hands like wirst.
 
 ## General Guidelines
 
 - Make sure the microphone is connected
 - Make sure requirment.txt is installed
-
-# Reference
-
-1. SpeechRecognition [Documentation](https://github.com/Uberi/speech_recognition#readme)
