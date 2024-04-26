@@ -28,7 +28,7 @@ Install pip3
 sudo apt install python3-pip
 ```
 
-Install the requirements
+Install the dependencies
 
 ```bash
 sudo pip3 install -r requirements.txt
